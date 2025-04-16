@@ -10,7 +10,6 @@ class Visualization:
     def visualize_data(self):
         if self.file_tree.topLevelItemCount() == 0:
             return False
-
         # Sammle Daten nach Dateitypen
         file_types = {}
         total_size = 0
