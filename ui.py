@@ -64,7 +64,7 @@ class SplashScreen(QSplashScreen):
         pixmap.fill(Qt.GlobalColor.white)
         super().__init__(pixmap)
         
-        # Layout erstellen
+        # Layout erstelln
         layout = QVBoxLayout()
         self.setLayout(layout)
         
