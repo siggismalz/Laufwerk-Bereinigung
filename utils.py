@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 def format_size(size):
-    """Formatiert eine Dateigröße in Bytes in eine lesbare Form"""
+    """Formatiert eine Dateigröße in Bytes in lesbare Form"""
     for unit in ['B', 'KB', 'MB', 'GB']:
         if size < 1024:
             return f"{size:.2f} {unit}"
