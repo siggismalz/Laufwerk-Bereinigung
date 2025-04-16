@@ -10,7 +10,7 @@ def main():
     app = QApplication(sys.argv)
     
     # Windows-spezifische App-ID setzen
-    myappid = 'edeka.drivecleaner.1.0'
+    myappid = 'drivecleaner.1.0'
     try:
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     except:
