@@ -22,6 +22,7 @@ class FileScanner(QThread):
         "Mittlere Dateien": (10 * 1024 * 1024, 100 * 1024 * 1024),  # 10-100MB
         "Große Dateien": (100 * 1024 * 1024, float('inf'))  # >100MB
     }
+    
 
     def __init__(self, drive_path, years, file_types=None, owner_filter=None, size_filter=None, max_workers=None):
         super().__init__()
