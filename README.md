@@ -33,6 +33,7 @@ Ein smartes Tool, das dir hilft, deine Windows-Laufwerke blitzschnell zu durchle
 2. Klone das Repository oder lade die Dateien herunter
 3. Installiere die erforderlichen Abhängigkeiten:
    ```bash
+   git clone https://github.com/siggismalz/Laufwerk-Bereinigung.git
    pip install -r requirements.txt
    ```
 
